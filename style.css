@@ -1,0 +1,144 @@
+* {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+}
+
+#navbar {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#links {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: rgb(230, 214, 38);
+    color: black;
+
+}
+
+#content{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    width: 50%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Prata', serif;
+    margin-right: 400px;
+}
+
+h1 {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    width: 65%;
+    font-size: 70px;
+    
+}
+
+#desc{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    width: 55%;
+
+}
+.logos div{
+     height: 30px;
+     width: 180px;
+     background-size: cover;
+}
+
+.logos{
+    height: 150px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.pictures{
+    display: flex;
+    background-size: cover;
+    height: 500px;
+    
+
+}
+
+.box{
+   height: 500px;
+   width: 45%;
+   margin-right: 2%;
+   margin-left: 2%;
+   
+}
+
+.pic{
+    height: 300px;
+    width: 100%;
+}
+
+.banner{
+    column-count: 3;
+    background-color: rgb(95, 91, 98);
+    height: 220px;
+    padding: 2%;
+}
+
+.banner h2,.banner p{
+      background-color:rgb(95, 91, 98);   
+}
+
+.working{
+    margin-right: 2%;
+   margin-left: 2%;
+   width: 50%;
+
+}
+
+#btn2{
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.name{
+    background-color: rgb(95, 91, 98);
+    height: 80px;
+    padding: 1% 2% 1% 2%;
+}
+
+.name h3{
+    background-color:rgb(95, 91, 98);  
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+
+}
+.name .social{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(95, 91, 98);  
+}
+.name .social div{
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    border-radius: 50%;
+}
